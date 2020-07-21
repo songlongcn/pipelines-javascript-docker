@@ -14,3 +14,14 @@ steps:
     repository: $(imageName)
     command: build
     Dockerfile: app/Dockerfile
+- task: NeuVectorScan@1
+  inputs:
+    controllerType: 'external'
+    neuvectorController: 'neuvector_controller'
+    containerRegistry: 'registry_to_scan'
+    repository: 'library/alpine'
+    tag: '3.12'
+    failOnHighSeverityThreshold: true
+    highSeverityThreshold: '10'
+    failOnMediumSeverityThreshold: true
+    mediumSeverityThreshold: '3'

@@ -19,8 +19,8 @@ steps:
     controllerType: 'external'
     neuvectorController: 'neuvector_controller'
     containerRegistry: 'registry_to_scan'
-    repository: 'library/alpine'
-    tag: '3.12'
+    repository: 'songlongtj/cc_demo'
+    tag: 'v1'
     failOnHighSeverityThreshold: true
     highSeverityThreshold: '100'
     failOnMediumSeverityThreshold: true

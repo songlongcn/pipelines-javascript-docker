@@ -18,7 +18,7 @@ steps:
   inputs:
     controllerType: 'external'
     neuvectorController: 'neuvector_controller'
-    containerRegistry: 'registry_to_scan'
+    containerRegistry: 'Docker Hub'
     repository: 'songlongtj/cc_demo'
     tag: 'v1'
     failOnHighSeverityThreshold: false

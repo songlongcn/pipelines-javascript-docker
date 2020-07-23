@@ -22,6 +22,6 @@ steps:
     repository: 'library/alpine'
     tag: '3.12'
     failOnHighSeverityThreshold: true
-    highSeverityThreshold: '10'
+    highSeverityThreshold: '100'
     failOnMediumSeverityThreshold: true
-    mediumSeverityThreshold: '3'
+    mediumSeverityThreshold: '200'

@@ -21,7 +21,7 @@ steps:
     containerRegistry: 'registry_to_scan'
     repository: 'songlongtj/cc_demo'
     tag: 'v1'
-    failOnHighSeverityThreshold: true
-    highSeverityThreshold: '100'
-    failOnMediumSeverityThreshold: true
+    failOnHighSeverityThreshold: false
+    highSeverityThreshold: '50'
+    failOnMediumSeverityThreshold: false
     mediumSeverityThreshold: '200'
